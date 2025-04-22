@@ -131,6 +131,15 @@
                     <target>7</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <mainClass>sample.CustomHwpWriter</mainClass>
+                    <classpathScope>test</classpathScope>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
